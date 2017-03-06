@@ -1,7 +1,7 @@
 {
-  "name": "pikachu",
+  "name": "test",
   "version": "1.0.0",
-  "description": "海尔运营中心管理平台",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -25,11 +25,6 @@
       }
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zmGitHub/Pikachu.git"
-  },
-  "author": "turbo <691209942@qq.com> (https://github.com/zmGitHub)",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.5.1",
