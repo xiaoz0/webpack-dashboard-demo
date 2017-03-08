@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Layout } from 'antd';
+import Sidebar from 'component/sidebar';
 import './layout.scss';
 
 // define layout header Sider content footer
@@ -9,11 +10,12 @@ class PageLayout extends Component {
   render() {
     return (
       <Layout className="layout">
-        <Sider>this is Sider</Sider>
+        <Sider><Sidebar /></Sider>
         <Layout>
-          <Header>this is header</Header>
-          <Content>this content {this.props.children}</Content>
-          <Footer>this is footer</Footer>
+          <Header className="header">this is header</Header>
+          <Content className="content">
+            <div className="inner-content">hello world {this.props.children}</div>
+          </Content>
         </Layout>
       </Layout>
     );

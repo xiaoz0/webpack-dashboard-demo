@@ -1,4 +1,4 @@
-import Layout from './layout';
+import Layout from 'component/layout';
 // 路由
 import TestRouter from './test';
 

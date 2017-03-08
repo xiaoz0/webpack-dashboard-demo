@@ -1,0 +1,20 @@
+$white: #fff;
+
+.layout {
+  height: 100%;
+
+  .header {
+    background: $white;
+  }
+
+  .content {
+    padding: 20px 30px;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .inner-content {
+    min-height: 100%;
+    background: $white;
+  }
+}

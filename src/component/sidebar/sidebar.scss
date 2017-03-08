@@ -1,0 +1,12 @@
+$navy: #333;
+
+.sidebar {
+  height: 100%;
+
+  .logo {
+    height: 32px;
+    background: $navy;
+    border-radius: 6px;
+    margin: 16px;
+  }
+}
