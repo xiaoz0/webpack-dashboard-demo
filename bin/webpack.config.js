@@ -41,6 +41,18 @@ const webpackConfig = {
         paths.src(),
       ],
       loader: 'happypack/loader?id=babel',
+    }, {
+      // loader less
+      test: /\.less$/,
+      loader: 'style!css!less',
+    }, {
+      // loader sass
+      test: /\.sass$/,
+      loader: 'style!css!sass',
+    }, {
+      // loader scss
+      test: /\.scss$/,
+      loader: 'style!css!sass',
     }],
   },
   // 插件
