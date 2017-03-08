@@ -9,7 +9,11 @@ const menus = [
         key: 'icon',
         name: 'icon',
         link: 'xxxx',
-      },
+      }, {
+        key: 'button',
+        name: 'button  按钮',
+        link: '/button'
+      }
     ],
   }, {
     key: 'layout',

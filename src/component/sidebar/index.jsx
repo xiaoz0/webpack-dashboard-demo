@@ -3,8 +3,10 @@ import { Icon, Menu } from 'antd';
 import { Link } from 'react-router';
 import './sidebar.scss';
 import menus from './const';
-console.log(menus);
+
+// 菜单集合
 const { SubMenu, Item } = Menu; 
+
 class Sidebar extends Component {
   render() {
     return (

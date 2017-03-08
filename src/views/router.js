@@ -1,6 +1,7 @@
 import Layout from 'component/layout';
 // 路由
 import TestRouter from './test';
+import ButtonRouter from './button';
 
 const routers = (store) => ({
   childRoutes: [
@@ -9,6 +10,7 @@ const routers = (store) => ({
       component: Layout,
       childRoutes: [
         TestRouter(store),
+        ButtonRouter(store),
       ]
     },
   ],

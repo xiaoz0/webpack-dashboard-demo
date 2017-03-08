@@ -12,9 +12,9 @@ class PageLayout extends Component {
       <Layout className="layout">
         <Sider><Sidebar /></Sider>
         <Layout>
-          <Header className="header">this is header</Header>
+          <Header className="header">welcome xiao 😄</Header>
           <Content className="content">
-            <div className="inner-content">hello world {this.props.children}</div>
+            <div className="inner-content">{this.props.children}</div>
           </Content>
         </Layout>
       </Layout>

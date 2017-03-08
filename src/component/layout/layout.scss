@@ -5,6 +5,7 @@ $white: #fff;
 
   .header {
     background: $white;
+    text-align: right;
   }
 
   .content {
@@ -14,6 +15,7 @@ $white: #fff;
   }
 
   .inner-content {
+    padding: 20px;
     min-height: 100%;
     background: $white;
   }
